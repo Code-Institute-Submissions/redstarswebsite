@@ -1,9 +1,33 @@
 header {
-    background-color: darkred;
+    background-color: black;
     height: 120px;
 }
 
 .logo {
+    display: inline-block;
+    font-family: 'Alfa Slab One', sans-serif;
     font-size: 70px;
     margin-left: 40px;
+    color: white;
+}
+
+.subpagenav {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.titlesection{
+    background-image: url("../assets/rockband.gif");
+    background-size: cover;
+    height: 700px;
+}
+
+.title{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    opacity: 0.6;
 }
