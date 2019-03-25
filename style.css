@@ -67,26 +67,6 @@ header {
     -webkit-text-stroke-color: white;
 }
 
-@media (max-width: 576px){
-.titlesection{
-    background-image: url("../assets/rockbandmobile.gif");
-    height: 700px;
-}
-
-.title{
-    font-size: 70px;
-    padding-top: 70px;
-}
-
-.logo {
-    font-size: 35px;
-    text-align: center;
-    color: white;
-}
-
-}
-
-
 .aboutstory {
     background-color: white;
     padding-top: 50px;
@@ -127,6 +107,7 @@ header {
     text-align: center;
     background-color: darkgreen;
     margin-bottom: 0;
+    display: table;
 }
 
 .dateplacetickets{
@@ -146,4 +127,37 @@ header {
     color: darkred;
     font-size: 37px;
     vertical-align: bottom;
+}
+
+@media (max-width: 576px){
+.titlesection{
+    background-image: url("../assets/rockbandmobile.gif");
+    height: 700px;
+}
+
+.title{
+    font-size: 70px;
+    padding-top: 70px;
+}
+
+.logo {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.subpagenav{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.subpagenav i{
+    font-size: 12px;
+    padding-right: 3px;
+}
+
+.subpagenavbar{
+    padding-top: 0px;
+}
+
 }
