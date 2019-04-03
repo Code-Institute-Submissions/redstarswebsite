@@ -10,7 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	<script type="text/javascript" src="#"></script> <!-- added this because of a bug in Chrome which plays transitions when opening the page -->
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 	<title>Red stars website - Sem Smit</title>
 </head>
 <body>
@@ -33,17 +35,20 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 titlesection"><p class="title">RED STARS</p></div>
 			</div>
-			<div class="row">
-				<p class="aboutstory col-md-12">
-					With over 50 years of experience,<br> 
-					countless songs and performances<br> 
-					in cities all around the world... <br>
-					<a href="#"><i class="fa fa-star-half"></i><button class="btn btn-dark" style="margin-top:20px;">About us</button></a>
-				</p>
+			<div class="aboutstory row">
+				<div class="col-md-12">
+					<h2>" <u>ABOUT US</u> "</h2>
+					<p>
+						With over 50 years of experience,<br> 
+						countless songs and performances<br> 
+						in cities all around the world... <br>
+						<a href="#"><i class="fa fa-star-half"></i><button class="btn btn-dark" style="margin-top:20px;">About us</button></a>
+					</p>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 tourstory row">
-
+					<div class="col-md-12"><h2>" <u>DATES AND TICKETS</u> "</h2></div>
 						<div class="dateplacetickets col-md-6">
 							<p>APRIL 17<br>
 							GELREDOME, ARNHEM<br>
@@ -88,12 +93,18 @@
 						
 				</div>
 			</div>
-			<div class="row">
-				<p class="musicstory col-md-12">
-					With over 50 years of experience,<br> 
-					countless songs and performances<br> 
-					in cities all around the world... <br>
-					<a href="#"><i class="fa fa-star-half"></i><button class="btn btn-dark" style="margin-top:20px;">Listen here</button></a>
+			<div class="row musicstory">
+				<div class="col-md-12"><h2>" <u>OUR MUSIC</u> "</h2></div>
+				<p class="col-md-12">
+					<a data-fancybox href="https://www.youtube.com/watch?v=1w7OgIMMRc4">
+    				        <img class="col-offset-3 col-md-5 video" src="http://i3.ytimg.com/vi/1w7OgIMMRc4/maxresdefault.jpg" />
+      				</a><br><br>
+      					Watch our latest
+						videoclip "Sweet Child O' Mine" above,<br>
+						or listen to our music by clicking the button below. <br>
+					<a href="#"><i class="fa fa-star-half"></i><button class="btn btn-dark" style="margin-top:30px;">
+					 Listen here
+					</button></a>
 				</p>
 			</div>
 			<div class="row">

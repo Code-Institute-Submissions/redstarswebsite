@@ -68,7 +68,7 @@ header {
 }
 
 .aboutstory {
-    background-image: linear-gradient(#969696, #404040);
+    background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -78,6 +78,7 @@ header {
     margin-bottom: 0;
 }
 
+
 .tourstory{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -86,20 +87,21 @@ header {
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-image: url("../assets/blackbackground.jpg");
+    background-image: url("../assets/blackbackgroundsmall.jpg");
     background-size: cover;
     background-position: center;
     margin: 0;
 }
 
 .musicstory{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color: white;
+    background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
     margin-bottom: 0;
+    color: white;
 }
 
 .photostory{
@@ -196,4 +198,23 @@ header {
 .topbarwrapper{
     padding-top: 0px;
 }
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    letter-spacing: 5px;
+}
+
+.video{
+     padding: 0;
+     outline-color: white;
+     outline-style: solid;
+     outline-offset: 15px;
+     margin-bottom: 10px;
 }
