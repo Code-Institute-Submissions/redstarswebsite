@@ -79,7 +79,7 @@ header {
 }
 
 
-.tourstory{
+.tourstory, .aboutsitesection{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 0;
@@ -204,6 +204,9 @@ ul{
 
 
 
+
+
+
 /*---------------MEDIA QUERIES--------------*/ 
 
 @media (max-width: 1024px){
@@ -272,4 +275,13 @@ ul{
 .topbarwrapper{
     padding-top: 0px;
 }
+}
+
+
+
+
+.aboutsitesection{
+    color: white;
+    min-height: 500px;
+    text-align: center;
 }
