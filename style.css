@@ -302,3 +302,22 @@ ul{
     -webkit-text-stroke-color: white;
 
 }
+
+.photodates{
+    float: left;
+    display: block;
+    padding-top: 20px;
+}
+
+.photoblock{
+    display: block;
+    height: 8em;
+    width: 8em;
+    background-color: green;
+    content: "xxx";
+    float: left;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    background-size:cover;
+    background-position:center;
+}
