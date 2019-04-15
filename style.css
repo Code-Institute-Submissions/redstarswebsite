@@ -201,11 +201,49 @@ ul{
     letter-spacing: 1px;
 }
 
+.aboutsitesection{
+    color: white;
+    min-height: 500px;
+    text-align: center;
+    padding-bottom: 100px;
+}
 
+.songtitle{
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 20px;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: darkred;
+}
 
+.musictitle{
+    color: gray;
+    padding-bottom:10px;
+    padding-top:25px;
+    font-size: 25px;    
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: white;
 
+}
 
+.photodates{
+    float: left;
+    display: block;
+    padding-top: 20px;
+}
 
+.photoblock{
+    display: block;
+    height: 8em;
+    width: 8em;
+    content: "xxx";
+    float: left;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    background-size:cover;
+    background-position:center;
+}
 
 /*---------------MEDIA QUERIES--------------*/ 
 
@@ -275,49 +313,11 @@ ul{
 .topbarwrapper{
     padding-top: 0px;
 }
-}
-
-.aboutsitesection{
-    color: white;
-    min-height: 500px;
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-.songtitle{
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-align: center;
-    padding-left: 20px;
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: darkred;
-}
-
-.musictitle{
-    color: gray;
-    padding-bottom:10px;
-    padding-top:25px;
-    font-size: 25px;    
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: white;
-
-}
-
-.photodates{
-    float: left;
-    display: block;
-    padding-top: 20px;
-}
 
 .photoblock{
-    display: block;
-    height: 8em;
-    width: 8em;
-    background-color: green;
-    content: "xxx";
-    float: left;
-    margin: 0px 10px;
-    padding-bottom: 10px;
-    background-size:cover;
-    background-position:center;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 5px;
+}
+
 }
