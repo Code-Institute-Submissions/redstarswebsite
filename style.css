@@ -321,3 +321,8 @@ ul{
 }
 
 }
+
+textarea, input{
+    width: 55%;
+    margin: 2px 0;
+}
