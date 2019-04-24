@@ -275,7 +275,7 @@ ul{
 
 @media (max-width: 576px){
 .titlesection{
-    background-image: url(assets/rockbandmobile.gif");
+    background-image: url("assets/rockbandmobile.gif");
     height: 700px;
 }
 
