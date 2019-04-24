@@ -50,7 +50,7 @@ header {
 }
 
 .titlesection{
-    background-image: url("../assets/rockband.gif");
+    background-image: url("assets/rockband.gif");
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -87,7 +87,7 @@ header {
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-image: url("../assets/blackbackgroundsmall.jpg");
+    background-image: url("assets/blackbackgroundsmall.jpg");
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -111,7 +111,7 @@ header {
     color: white;
     font-size: 20px;
     text-align: center;
-    background-image: url("../assets/blackbackgroundsmall.jpg");
+    background-image: url("assets/blackbackgroundsmall.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 0;
@@ -275,7 +275,7 @@ ul{
 
 @media (max-width: 576px){
 .titlesection{
-    background-image: url("../assets/rockbandmobile.gif");
+    background-image: url(assets/rockbandmobile.gif");
     height: 700px;
 }
 
