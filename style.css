@@ -326,3 +326,12 @@ textarea, input{
     width: 55%;
     margin: 2px 0;
 }
+
+.date {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.place {
+    color: lightgray;
+}
