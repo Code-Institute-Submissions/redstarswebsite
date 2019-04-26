@@ -259,6 +259,10 @@ textarea, input{
     color: lightgray;
 }
 
+.dropdown{
+    display: none;
+}
+
 /*---------------MEDIA QUERIES--------------*/ 
 
 @media (max-width: 1024px){
@@ -287,8 +291,12 @@ textarea, input{
     
     h2{
     font-size: 1em;
-}
+    }
 
+    .dropdown{
+    visibility: visible;
+    }
+    
 }
 
 @media (max-width: 576px){
@@ -323,10 +331,6 @@ header {
     padding-right: 3px;
 }
 
-.subpagenavbar{
-    visibility: hidden;
-}
-
 .dateplacetickets,
 .btn-outline-light{
     font-size: 10px;
@@ -358,6 +362,10 @@ header {
 
 .dropdown-toggle{
     margin-left: 20px;
+}
+
+.dropdown{
+    display: block;
 }
 
 }
