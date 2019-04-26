@@ -30,7 +30,7 @@ header {
 
 .subpagenavbar{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 .subpagenav {
@@ -283,6 +283,7 @@ textarea, input{
     
     .subpagenavbar{
         padding-bottom: 10px;
+        padding-top: 20px;
     }
     
     h2{
