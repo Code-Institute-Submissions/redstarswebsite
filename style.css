@@ -245,6 +245,20 @@ ul{
     background-position:center;
 }
 
+textarea, input{
+    width: 55%;
+    margin: 2px 0;
+}
+
+.date {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.place {
+    color: lightgray;
+}
+
 /*---------------MEDIA QUERIES--------------*/ 
 
 @media (max-width: 1024px){
@@ -274,6 +288,11 @@ ul{
 }
 
 @media (max-width: 576px){
+header {
+    height: 110px;
+    min-height: 0px;
+}
+    
 .titlesection{
     background-image: url("assets/rockbandmobile.gif");
     height: 700px;
@@ -288,6 +307,7 @@ ul{
     font-size: 35px;
     text-align: center;
     color: white;
+    margin-top: 4px;
 }
 
 .subpagenav{
@@ -301,8 +321,7 @@ ul{
 }
 
 .subpagenavbar{
-    padding-top: 0px;
-    padding-bottom: 10px;
+    visibility: hidden;
 }
 
 .dateplacetickets,
@@ -320,18 +339,18 @@ ul{
     margin-bottom: 5px;
 }
 
+.fa-bars{
+    color: darkred;
 }
 
-textarea, input{
-    width: 55%;
-    margin: 2px 0;
+.dropdown-item i{
+    color: darkred;
+    padding-right: 10px;
 }
 
-.date {
-    font-size: 25px;
-    margin-bottom: 0px;
+.dropdown-item{
+    font-size: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
-.place {
-    color: lightgray;
 }
