@@ -204,7 +204,6 @@ ul{
 .aboutsitesection{
     color: white;
     min-height: 500px;
-    text-align: center;
     padding-bottom: 100px;
 }
 
@@ -274,6 +273,23 @@ textarea, input{
 
 .button{
     font-size: 13px;
+}
+
+section{
+    overflow: auto;
+}
+
+.all-photorows{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoaddition{
+    text-align: center;
+}
+
+audio{
+    width: 65%;
 }
 
 /*---------------MEDIA QUERIES--------------*/ 
@@ -382,18 +398,4 @@ header {
     display: block;
 }
 
-}
-
-
-section{
-    overflow: auto;
-}
-
-.all-photorows{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.photoaddition{
-    text-align: center;
 }
