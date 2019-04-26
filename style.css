@@ -267,6 +267,10 @@ textarea, input{
     padding-top: 15px;
     }
     
+    .titlesection{
+    background-image: url("assets/redstarsmobilesmaller.jpg");
+    }
+    
     .subpagenav{
     font-size: 15px;
     margin-right: 15px;
@@ -294,7 +298,6 @@ header {
 }
     
 .titlesection{
-    background-image: url("assets/rockbandmobile.gif");
     height: 700px;
 }
 
@@ -351,6 +354,10 @@ header {
 .dropdown-item{
     font-size: 20px;
     font-family: 'Allerta Stencil', sans-serif;
+}
+
+.dropdown-toggle{
+    margin-left: 20px;
 }
 
 }
