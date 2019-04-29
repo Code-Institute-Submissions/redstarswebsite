@@ -46,22 +46,18 @@ Used it to add small symbols next to buttons to make navigation easier and pop o
 Tested the site in a lot of ways by clicking every button on every page. 
 Checking all possibilities by filling in forms, clicking in different orders.
 Did all this in different browsers.
-And sent it to 12 friends whom I asked for feedback.
+And after each thing I wrote, i checked it on every device, portrait and landscape.
+
+I also sent it to 12 friends (some of them have experience with coding) whom I asked for feedback.
+And ofcourse looked through it with my mentor, Ignatius Ukwuoma, from Code Insitute.
 
 ============Deployment===================
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I pushed all the files to Github.com and it's now available on:
+https://semsmit.github.io/redstarswebsite/
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The files are all available on:
+https://github.com/SemSmit/redstarswebsite
 
 =============Credits==================
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The photos used in this site were obtained from google
+And clips from youtube guns n roses
