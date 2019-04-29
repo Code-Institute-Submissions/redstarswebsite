@@ -207,6 +207,10 @@ ul{
     padding-bottom: 100px;
 }
 
+.aboutsiteinner{
+    padding-bottom: 40px;
+}
+
 .songtitle{
     margin-top: 25px;
     margin-bottom: 0;
@@ -289,7 +293,64 @@ section{
 }
 
 audio{
-    width: 65%;
+    width: 45%;
+}
+
+.videos-music-page{
+    max-width: 80%;
+    margin-top: 40px;
+     outline-color: gray;
+     outline-style: groove;
+     outline-offset: 5px;
+     margin-bottom: 0px;
+
+}
+
+.video-title{
+    padding-top: 25px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: lightgray;
+    font-family: Courier;
+}
+
+.listen-latest-album{
+    padding-top: 90px;
+}
+
+.bandmember{
+    padding: 50px 0;
+}
+
+.bandmemberimage{
+  border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    margin-left: 30%;
+}
+
+.membername{
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: left;
+    color: darkred;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: white;
+}
+
+.memberrole{
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: left;
+    color: lightgray;
+    text-transform: capitalize;
 }
 
 /*---------------MEDIA QUERIES--------------*/ 
@@ -396,6 +457,14 @@ header {
 
 .dropdown{
     display: block;
+}
+
+audio{
+    width: 85%;
+}
+
+.bandmemberimage{
+    margin-left: 0;
 }
 
 }
