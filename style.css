@@ -353,6 +353,23 @@ audio{
     text-transform: capitalize;
 }
 
+div form input,
+div form textarea,
+div form select{
+    color: black;
+}
+
+div form select{
+    width: 55%;
+}
+#crowdsize{
+    color: lightgray;
+    margin-left: 0;
+    padding-left: 0;
+}
+.sendbutton{
+    font-size: 20px;
+}
 /*---------------MEDIA QUERIES--------------*/ 
 
 @media (max-width: 1024px){

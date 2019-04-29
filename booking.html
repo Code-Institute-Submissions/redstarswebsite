@@ -59,11 +59,20 @@
 						    Contact us below!
 						</div>
 						<div class="col-md-12">
-							<form class="bookingsform"  style="padding-top:40px;">
+							<form class="bookingsform">
 				               <input type="text" name="name" placeholder="Name" required/><br>
 				               <input type="email" name="emailaddress" placeholder="Email" required/><br>
-				               <textarea rows="5" name="projectsummary" placeholder="Event Description / Question" required></textarea><br>
-				               <button type="submit" class="btn btn-secondary">Send!</button>
+				               <input type="tel" name="phonenumber" placeholder="Phone Number" required/><br>
+				               <select name="people-number">
+				               		<option value="invalid" id=crowdsize>Size of crowd:</option>
+								  	<option value="50">0-50 persons</option>
+								 	 <option value="200">50-200 persons</option>
+								 	 <option value="1500">200-1500 persons</option>
+								 	 <option value="5000">1500-5000 persons</option>
+								 	 <option value="5000+">5000+ persons</option>
+								</select><br>
+				               <textarea rows="5" name="projectsummary" placeholder="Event Description / Question"></textarea><br>
+				               <button type="submit" class="btn btn-secondary sendbutton">Send!</button>
 				           </form>
 			           </div>
 		</div>
