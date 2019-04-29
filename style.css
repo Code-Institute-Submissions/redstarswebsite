@@ -372,6 +372,7 @@ div form select{
 }
 /*---------------MEDIA QUERIES--------------*/ 
 
+      
 @media (max-width: 1024px){
 
     .titlesection{
@@ -485,3 +486,38 @@ audio{
 }
 
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    .ipadpropaddingbooking{
+        padding-top: 28%;
+        padding-bottom: 28%;
+    }
+    
+    .ipadpropaddingmusic{
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    
+    .topbarwrapper{
+        padding-top: 40px;       
+    }
+    
+    .subpagenavbar{
+        padding-top: 40px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+      .ipadpropaddingbooking{
+        padding-top: 8%;
+        padding-bottom: 10%;
+    }
+  }
