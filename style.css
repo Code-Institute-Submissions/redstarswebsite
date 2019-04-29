@@ -135,6 +135,10 @@ header {
     vertical-align: bottom;
 }
 
+.fa-star{
+    color:darkred;
+}
+
 h2{
     text-align: center;
     color: white;
@@ -369,6 +373,23 @@ div form select{
 }
 .sendbutton{
     font-size: 20px;
+}
+
+.aboutsig{
+    width:25em;
+    max-width:100%;
+    padding-top:60px;
+}
+
+.spotify{
+    color:#81b71a;
+}
+.youtube{
+    color:#c4302b;
+}
+
+.instagram{
+    color: darkred;
 }
 /*---------------MEDIA QUERIES--------------*/ 
 
