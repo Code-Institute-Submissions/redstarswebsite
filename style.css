@@ -342,8 +342,9 @@ audio{
     padding-bottom: 0;
     text-align: left;
     color: darkred;
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: white;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .memberrole{
@@ -365,6 +366,10 @@ div form select{
 
 div form select{
     width: 55%;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    color: grey;
+    padding-left: 2px;
 }
 #crowdsize{
     color: lightgray;
@@ -393,7 +398,30 @@ div form select{
 }
 /*---------------MEDIA QUERIES--------------*/ 
 
-      
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+     .ipadpropaddingbooking{
+        padding-top: 14%;
+        padding-bottom: 14%;
+    }
+    
+    .ipadpropaddingmusic{
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    
+    .membername{
+    font-size: 30px;
+    }
+
+    .memberrole{
+        font-size: 20px;
+    }
+
+}
+
 @media (max-width: 1024px){
 
     .titlesection{
@@ -412,7 +440,7 @@ div form select{
     
     .subpagenavbar{
         padding-bottom: 10px;
-        padding-top: 20px;
+        padding-top: 40px;
     }
     
     h2{
@@ -425,7 +453,7 @@ div form select{
     
     .logo{
     font-size: 25px;
-    padding-top: 15px;
+    padding-top: 35px;
     }
 }
 
@@ -506,6 +534,8 @@ audio{
     margin-left: 0;
 }
 
+textarea, input, div form select{
+    width: 90%;
 }
 
 @media only screen 
