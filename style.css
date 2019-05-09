@@ -1,565 +1,568 @@
+/*-------------------------------------HEADER---------------------------------------*/
+
 header {
-    background-color: black;
-    min-height: 120px;
+  background-color: black;
+  min-height: 120px;
 }
 
-.topbarwrapper{
-    padding-top: 25px;
+.topbarwrapper {
+  padding-top: 25px;
 }
 
 .logo {
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Alfa Slab One', sans-serif;
-    font-size: 45px;
-    text-align: center;
-    color: white;
-    transition: 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  transition: 0.3s ease-in-out;
 }
 
-.logo i{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+.logo i {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .logo:hover,
-.subpagenav:hover{
- color: gray;
- text-decoration: none;
+.subpagenav:hover {
+  color: gray;
+  text-decoration: none;
 }
 
-.subpagenavbar{
-    text-align: center;
-    padding-top: 45px;
+.subpagenavbar {
+  text-align: center;
+  padding-top: 45px;
 }
 
 .subpagenav {
-    display: inline-block;
-    margin-right: 50px;
-    color: white;
-    font-size: 15px;
-    transition: 0.3s ease-in-out;
-    font-family: 'Allerta Stencil', sans-serif;
-    
+  display: inline-block;
+  margin-right: 50px;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
-.subpagenav i{
-    font-size: 20px;
-    padding-right: 8px;
-    color: darkred;
+.subpagenav i {
+  font-size: 20px;
+  padding-right: 8px;
+  color: darkred;
 }
 
-.titlesection{
-    background-image: url("assets/rockband.gif");
-    background-size: cover;
-    background-position: center;
-    height: 700px;
+.titlesection {
+  background-image: url("assets/rockband.gif");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
 }
 
-.title{
-    font-family: 'Alfa Slab One', sans-serif;
-    font-size: 100px;
-    text-align: center;
-    padding-top: 50px;
-    color: darkred;
-    opacity: 0.5;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-}
-
-.aboutstory {
-    background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-
-.tourstory, .aboutsitesection{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 0;
-    padding-right: 0;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    background-image: url("assets/blackbackgroundsmall.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-}
-
-.musicstory{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
-    margin-bottom: 0;
-    color: white;
-}
-
-.photostory{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    background-image: url("assets/blackbackgroundsmall.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 0;
-}
-
-.dateplacetickets{
-    padding: 10px 0 20px 0;
-    font-size: 17px;
-    color: white;
-}
-
-.btn-outline-light{
-    margin-top: 10px;
-    font-family: 'allerta stencil', sans-serif;
-    font-size: 13px;
+.title {
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: darkred;
+  opacity: 0.5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .fa-star-half {
-    color: darkred;
-    font-size: 30px;
-    vertical-align: bottom;
+  color: darkred;
+  font-size: 30px;
+  vertical-align: bottom;
 }
 
-.fa-star{
-    color:darkred;
-}
-
-h2{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-family: 'Fjalla One', sans-serif;
-    padding-bottom: 30px;
-    padding-top: 10px;
-    letter-spacing: 5px;
-}
-
-.video{
-     padding: 0;
-     outline-color: gray;
-     outline-style: groove;
-     outline-offset: 15px;
-     margin-bottom: 0px;
-}
-
-.galleryphoto{
-    padding: 10px;
+.fa-star {
+  color: darkred;
 }
 
 
-footer{
-    color: white;
-    background-image: linear-gradient(to top left,#2a2a2a, #858585);
-    height: 150px;
+/*-------------------------------------MAIN (ALL SECTIONS)---------------------------------------*/
+.aboutstory {
+  background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.tourstory, .aboutsitesection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("assets/blackbackgroundsmall.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.musicstory {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-image: linear-gradient(to bottom right,#2a2a2a, #858585);
+  margin-bottom: 0;
+  color: white;
+}
+
+.photostory {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("assets/blackbackgroundsmall.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+}
+
+.dateplacetickets {
+  padding: 10px 0 20px 0;
+  font-size: 17px;
+  color: white;
+}
+
+.btn-outline-light {
+  margin-top: 10px;
+  font-family: 'allerta stencil', sans-serif;
+  font-size: 13px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  letter-spacing: 5px;
+}
+
+.video {
+  padding: 0;
+  outline-color: gray;
+  outline-style: groove;
+  outline-offset: 15px;
+  margin-bottom: 0px;
+}
+
+.galleryphoto {
+  padding: 10px;
 }
 
 
-.socials li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    line-height: 7px;
-    color: white;
-    background: darkred;
-    transition: all 0.35s ease-in-out;
+/*-------------------------------------FOOTER---------------------------------------*/
+footer {
+  color: white;
+  background-image: linear-gradient(to top left,#2a2a2a, #858585);
+  height: 150px;
 }
 
-.socials li a i:hover{
-    color: Gray;
-    transition: all 0.35s ease-in-out;
+.socials li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  line-height: 7px;
+  color: white;
+  background: darkred;
+  transition: all 0.35s ease-in-out;
 }
 
-li{
-        text-align: center;
-        display: inline-block;
-        padding: 0 10px;
+.socials li a i:hover {
+  color: Gray;
+  transition: all 0.35s ease-in-out;
 }
 
-ul{
-    text-align: center;
-    margin-top: 30px;
+li {
+  text-align: center;
+  display: inline-block;
+  padding: 0 10px;
 }
 
-.footertext{
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin: 0;
-    letter-spacing: 1px;
+ul {
+  text-align: center;
+  margin-top: 30px;
 }
 
-.aboutsitesection{
-    color: white;
-    min-height: 500px;
-    padding-bottom: 100px;
+.footertext {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
-.aboutsiteinner{
-    padding-bottom: 40px;
+/*-------------------------------------SUBPAGES---------------------------------------*/
+.aboutsitesection {
+  color: white;
+  min-height: 500px;
+  padding-bottom: 100px;
 }
 
-.songtitle{
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-align: center;
-    padding-left: 20px;
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: darkred;
+.aboutsiteinner {
+  padding-bottom: 40px;
 }
 
-.musictitle{
-    color: gray;
-    padding-bottom:10px;
-    padding-top:25px;
-    font-size: 25px;    
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: white;
-
+.songtitle {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-left: 20px;
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: darkred;
 }
 
-.photodates{
-    text-align: left;
-    display: block;
-    padding-top: 30px;
+.musictitle {
+  color: gray;
+  padding-bottom: 10px;
+  padding-top: 25px;
+  font-size: 25px;
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: white;
 }
 
-.photoblock{
-    display: block;
-    height: 8em;
-    width: 8em;
-    content: "xxx";
-    float: left;
-    margin: 0px 10px;
-    padding-bottom: 10px;
-    background-size:cover;
-    background-position:center;
-    margin-bottom: 5px;
+.photodates {
+  text-align: left;
+  display: block;
+  padding-top: 30px;
 }
 
-textarea, input{
-    width: 55%;
-    margin: 2px 0;
+.photoblock {
+  display: block;
+  height: 8em;
+  width: 8em;
+  content: "xxx";
+  float: left;
+  margin: 0px 10px;
+  padding-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+}
+
+.thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  max-width: 90%;
+  max-width: 650px;
+}
+
+.button {
+  font-size: 13px;
+}
+
+section {
+  overflow: auto;
+}
+
+.all-photorows {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photoaddition {
+  text-align: center;
+}
+
+audio {
+  width: 45%;
+}
+
+.videos-music-page {
+  max-width: 80%;
+  margin-top: 40px;
+  outline-color: gray;
+  outline-style: groove;
+  outline-offset: 5px;
+  margin-bottom: 0px;
+}
+
+.video-title {
+  padding-top: 25px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  color: lightgray;
+  font-family: Courier;
+}
+
+.listen-latest-album {
+  padding-top: 90px;
+}
+
+.bandmember {
+  padding: 50px 0;
+}
+
+.bandmemberimage {
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  margin-left: 30%;
+}
+
+.membername {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+  color: darkred;
+  font-size: 35px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.memberrole {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: left;
+  color: lightgray;
+  text-transform: capitalize;
+}
+
+.aboutsig {
+  width: 25em;
+  max-width: 100%;
+  padding-top: 60px;
+}
+
+textarea, input {     /*----FORMS---*/
+  width: 55%;
+  margin: 2px 0;
 }
 
 .date {
-    font-size: 25px;
-    margin-bottom: 0px;
+  font-size: 25px;
+  margin-bottom: 0px;
 }
 
 .place {
-    color: lightgray;
+  color: lightgray;
 }
 
-.dropdown{
-    display: none;
-}
-
-.thumbnail{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-    max-width: 90%;
-    max-width: 650px;
-}
-
-.button{
-    font-size: 13px;
-}
-
-section{
-    overflow: auto;
-}
-
-.all-photorows{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.photoaddition{
-    text-align: center;
-}
-
-audio{
-    width: 45%;
-}
-
-.videos-music-page{
-    max-width: 80%;
-    margin-top: 40px;
-     outline-color: gray;
-     outline-style: groove;
-     outline-offset: 5px;
-     margin-bottom: 0px;
-
-}
-
-.video-title{
-    padding-top: 25px;
-    text-transform: uppercase;
-    padding-bottom: 30px;
-    color: lightgray;
-    font-family: Courier;
-}
-
-.listen-latest-album{
-    padding-top: 90px;
-}
-
-.bandmember{
-    padding: 50px 0;
-}
-
-.bandmemberimage{
-  border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-    clear:both;
-    margin-left: 30%;
-}
-
-.membername{
-    margin-left: 0px;
-    overflow:auto;
-    display:block;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-align: left;
-    color: darkred;
-    font-size: 35px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.memberrole{
-    margin-left: 0px;
-    overflow:auto;
-    display:block;
-    margin-top: 0px;
-    padding-top: 0px;
-    text-align: left;
-    color: lightgray;
-    text-transform: capitalize;
-}
-
-div form input,
+.dropdown {
+  display: none;
+}div form input,
 div form textarea,
-div form select{
-    color: black;
+div form select {
+  color: black;
 }
 
-div form select{
-    width: 55%;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0px;
-    color: grey;
-    padding-left: 2px;
-}
-#crowdsize{
-    color: lightgray;
-    margin-left: 0;
-    padding-left: 0;
-}
-.sendbutton{
-    font-size: 20px;
+div form select {
+  width: 55%;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  color: grey;
+  padding-left: 2px;
 }
 
-.aboutsig{
-    width:25em;
-    max-width:100%;
-    padding-top:60px;
+#crowdsize {
+  color: lightgray;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.spotify{
-    color:#81b71a;
-}
-.youtube{
-    color:#c4302b;
+.sendbutton {
+  font-size: 20px;
 }
 
-.instagram{
-    color: darkred;
+.spotify {             /*----SOCIALS COLOURS---*/
+  color: #81b71a;
 }
-/*---------------MEDIA QUERIES--------------*/ 
+
+.youtube {
+  color: #c4302b;
+}
+
+.instagram {
+  color: darkred;
+}
+/*-------------------------------------MEDIA QUERIES---------------------------------------*/
 
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-     .ipadpropaddingbooking{
-        padding-top: 14%;
-        padding-bottom: 14%;
-    }
-    
-    .ipadpropaddingmusic{
-        padding-top: 4%;
-        padding-bottom: 4%;
-    }
-    
-    .membername{
+and (orientation : portrait) {
+ 
+  .ipadpropaddingbooking {
+    padding-top: 14%;
+    padding-bottom: 14%;
+  }
+
+  .ipadpropaddingmusic {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .membername {
     font-size: 30px;
-    }
+  }
 
-    .memberrole{
-        font-size: 20px;
-    }
-
+  .memberrole {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
-    .titlesection{
+  .titlesection {
     background-image: url("assets/redstarsmobilesmaller.jpg");
-    }
-    
-    .subpagenav{
+  }
+
+  .subpagenav {
     font-size: 15px;
     margin-right: 15px;
-    }
+  }
 
-    .subpagenav i{
-        font-size: 17px;
-        padding-right: 5px;
-    }
-    
-    .subpagenavbar{
-        padding-bottom: 10px;
-        padding-top: 40px;
-    }
-    
-    h2{
+  .subpagenav i {
+    font-size: 17px;
+    padding-right: 5px;
+  }
+
+  .subpagenavbar {
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+
+  h2 {
     font-size: 1em;
-    }
+  }
 
-    .dropdown{
+  .dropdown {
     visibility: visible;
-    }
-    
-    .logo{
+  }
+
+  .logo {
     font-size: 25px;
     padding-top: 35px;
-    }
+  }
 }
 
-@media (max-width: 576px){
-header {
+@media (max-width: 576px) {
+  header {
     height: 110px;
     min-height: 0px;
-}
-    
-.titlesection{
-    height: 700px;
-}
+  }
 
-.title{
+  .titlesection {
+    height: 700px;
+  }
+
+  .title {
     font-size: 70px;
     padding-top: 70px;
-}
+  }
 
-.logo {
+  .logo {
     font-size: 35px;
     text-align: center;
     color: white;
     margin-top: 4px;
-}
+  }
 
-.subpagenav{
+  .subpagenav {
     font-size: 11px;
     margin-right: 10px;
-}
+  }
 
-.subpagenav i{
+  .subpagenav i {
     font-size: 11px;
     padding-right: 3px;
-}
+  }
 
-.dateplacetickets,
-.btn-outline-light{
+  .dateplacetickets,
+.btn-outline-light {
     font-size: 10px;
-}
+  }
 
-.topbarwrapper{
+  .topbarwrapper {
     padding-top: 0px;
-}
+  }
 
-.photoblock{
+  .photoblock {
     height: 3em;
     width: 3em;
     overflow: auto;
-}
+  }
 
-.fa-bars{
+  .fa-bars {
     color: darkred;
-}
+  }
 
-.dropdown-item i{
+  .dropdown-item i {
     color: darkred;
     padding-right: 10px;
-}
+  }
 
-.dropdown-item{
+  .dropdown-item {
     font-size: 20px;
     font-family: 'Allerta Stencil', sans-serif;
-}
+  }
 
-.dropdown-toggle{
+  .dropdown-toggle {
     margin-left: 20px;
-}
+  }
 
-.dropdown{
+  .dropdown {
     display: block;
-}
+  }
 
-audio{
+  audio {
     width: 85%;
-}
+  }
 
-.bandmemberimage{
+  .bandmemberimage {
     margin-left: 0;
-}
+  }
 
-textarea, input, div form select{
+  textarea, input, div form select {
     width: 90%;
+  }
 }
 
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait){
-    .ipadpropaddingbooking{
-        padding-top: 28%;
-        padding-bottom: 28%;
-    }
-    
-    .ipadpropaddingmusic{
-        padding-top: 9%;
-        padding-bottom: 9%;
-    }
-    
-    .topbarwrapper{
-        padding-top: 40px;       
-    }
-    
-    .subpagenavbar{
-        padding-top: 40px;
-    }
+  and (orientation: portrait) {
+  .ipadpropaddingbooking {
+    padding-top: 28%;
+    padding-bottom: 28%;
+  }
+
+  .ipadpropaddingmusic {
+    padding-top: 9%;
+    padding-bottom: 9%;
+  }
+
+  .topbarwrapper {
+    padding-top: 40px;
+  }
+
+  .subpagenavbar {
+    padding-top: 40px;
+  }
 }
 
 @media only screen 
@@ -567,8 +570,8 @@ textarea, input, div form select{
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: landscape) {
-      .ipadpropaddingbooking{
-        padding-top: 8%;
-        padding-bottom: 10%;
-    }
+  .ipadpropaddingbooking {
+    padding-top: 8%;
+    padding-bottom: 10%;
   }
+}
